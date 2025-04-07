@@ -1,0 +1,52 @@
+.checkout {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .checkout-content {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .checkout-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    input {
+      margin-bottom: 1rem;
+      padding: 0.75rem;
+      font-size: 1rem;
+    }
+  }
+
+  .checkout-summary {
+    flex: 1;
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.75rem;
+      font-size: 1rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+  }
+}
