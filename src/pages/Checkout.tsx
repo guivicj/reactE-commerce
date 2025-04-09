@@ -49,9 +49,7 @@ const Checkout: React.FC = () => {
                         </li>
                     ))}
                 </ul>
-
                 <h3>Total: ${total.toFixed(2)}</h3>
-
                 <button type="submit">Place Order</button>
             </form>
         </div>
